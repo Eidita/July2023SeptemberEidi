@@ -1,0 +1,62 @@
+
+step-1
+create a maven project---file-new-maven project-create simple project-
+--put group id and artifact id-click finish
+
+
+how to update java version?
+<properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+    </properties>
+    
+    
+   find out what java version you have in your local machine?
+    open program file from this computer--java--and make sure do not put higher version then your local java ou can put local version
+    
+    
+    then do maven update
+    
+    how to add dependencies
+    add tag:
+    <dependencies>
+		
+	</dependencies>
+	link add necessary dependencies in the middle
+	
+	
+	how do we find dependencies?
+	go to maven repo  https://mvnrepository.com/:
+	
+	search selenium-java
+	get the latest version
+	search WebDriverManager
+	get the latest version
+	search TestNG
+	get the latest version
+	
+	do a maven update?
+	
+	create a java class in src/main/java to make sure java is working.
+	
+	create a java class in src/main/java to make sure java is working.
+	
+	create a test case with Chrome and edge to test selenium.
+	
+	WebDriverManager.chromedriver().setup();
+	
+	WebDriverManager will find out what version browser i have in my location 
+	and then it will provide matching driverexe.file.
+	
+	driver.exe file job is supply the source or test code
+	browser job s display supplied code properly
+	
+	//create a github account
+	//push the code in github
+	
+	
+	
+	
+	
+	
+	
