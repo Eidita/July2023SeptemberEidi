@@ -12,26 +12,28 @@ public class LoginPage {
 
 /*
  * @param driver
- * user define constructor for pm
+ * user define constructor for POM
  */
 
 
 
 
 public LoginPage(WebDriver driver) {//constructor
+	//(WebDriver driver) by this we peramitarized
 	//highlight driver and right click and select source-generate constructor using fields-click-ok
-	//super();
+	super();
 	this.driver = driver;//instance initiate variable
 	//these 2 lines regular constructor
 	PageFactory.initElements(driver, this);//when you use these lines called pom contructor.design for pom
 	//PageFactory=
 	//initElements=
 	//pageObjectModel means
-	//line number 21 and 23 is default constructor
+	//line number 21 and 25 is default constructor
 	
 }
 public WebElement userName(String enterYourUserName) {
-	//what is WebElement
+	//what is WebElement-Selenium dataType
+	//userName=method name
 	//it's return type method
 	//driver.findElement(By.cssSelector("[id='email']")).sendKeys("faruq");basic code
 	//pm style coding
