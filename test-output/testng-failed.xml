@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fabook.pageObjectModel_LoginTests.LoginTest">
+      <class name="com.facebook.pom_PageFactory.LoginTestWithPageFactory">
         <methods>
-          <include name="closeApp"/>
           <include name="validLoginTest"/>
-          <include name="invalidLoginTest"/>
+          <include name="closeApp"/>
           <include name="openApp"/>
         </methods>
-      </class> <!-- com.fabook.pageObjectModel_LoginTests.LoginTest -->
+      </class> <!-- com.facebook.pom_PageFactory.LoginTestWithPageFactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
